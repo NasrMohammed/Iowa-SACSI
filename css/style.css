@@ -53,3 +53,10 @@ footer{
 	height:60px;
 	padding-top:20px;
 }
+
+.gallery li{
+	width: 32%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+}
