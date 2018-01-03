@@ -50,5 +50,12 @@ footer {
 }
 
 .title-area{
-    padding-left: 11%;
+    padding-left: 300px
+}
+.slogan{
+    height: 100px;
+    background-image: url("../img/slogan.jpg");
+    margin-bottom: 15px;
+    padding-top: 15px;
+    /* align-content: center; */
 }
