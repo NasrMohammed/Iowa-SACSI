@@ -9,15 +9,15 @@ body {
 
 .social {
     float: right;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .social img {
-    width: 40px;
+    width: 35px;
 }
 
 .slider {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .boxes {
@@ -46,5 +46,9 @@ footer {
 }
 
 .logo {
-    padding-top: 15px;
+    padding-top: 10px;
+}
+
+.title-area{
+    padding-left: 11%;
 }
