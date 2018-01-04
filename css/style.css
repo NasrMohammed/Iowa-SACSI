@@ -18,6 +18,7 @@ body {
 
 .slider {
     margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 .boxes {
@@ -59,7 +60,7 @@ footer {
     margin-bottom: 15px;
     padding-top: 20px;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 0px;
 }
 
 .top-bar {
