@@ -50,10 +50,12 @@ footer {
     padding-top: 5px;
 }
 
-.title-area {
+/* .title-area {
     padding-left: 300px
+} */
+.contain-to-grid {
+    background-color: #3096d2;
 }
-
 .slogan {
     height: 110px;
     background-image: url("../img/slogan.jpg");
