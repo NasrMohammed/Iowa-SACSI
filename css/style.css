@@ -26,7 +26,8 @@ body {
 }
 
 .boxes i {
-    font-size: 75px;
+    font-size: 100px;
+    color: #093e5e;
     text-align: center;
     margin: auto;
     display: block;
