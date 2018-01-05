@@ -84,4 +84,12 @@ footer {
     background: rgb(10, 82, 110) !important;   
 }
 
+.side-menu h4{
+	background:#42a5db;
+	color:#fff;
+	padding:8px;
+}
 
+.margin-top{
+	margin-top:20px;
+}
