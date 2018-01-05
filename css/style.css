@@ -51,12 +51,15 @@ footer {
     padding-top: 5px;
 }
 
+
 /* .title-area {
     padding-left: 300px
 } */
+
 .contain-to-grid {
     background-color: #3096d2;
 }
+
 .slogan {
     height: 110px;
     background-image: url("../img/slogan.jpg");
@@ -74,22 +77,26 @@ footer {
     background-color: #3096d2;
 }
 
-
-
 .top-bar-section li a:not(.button) {
-    background-color: #3096d2 !important;   
+    background-color: #3096d2 !important;
 }
 
 .top-bar-section li a:not(.button):hover {
-    background: rgb(10, 82, 110) !important;   
+    background: rgb(10, 82, 110) !important;
 }
 
-.side-menu h4{
-	background:#42a5db;
-	color:#fff;
-	padding:8px;
+.side-menu h4 {
+    background: #42a5db;
+    color: #fff;
+    padding: 8px;
 }
 
-.margin-top{
-	margin-top:20px;
+.margin-top {
+    margin-top: 20px;
+}
+
+.top-bar-section ul li>a {
+    font-size: 1rem;
+    /* font-weight: bold; */
+    /* color: bisque; */
 }
