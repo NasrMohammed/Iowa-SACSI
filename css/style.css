@@ -100,3 +100,13 @@ footer {
     /* font-weight: bold; */
     /* color: bisque; */
 }
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover, .accordion .accordion-navigation.active > a, .accordion dd.active > a{
+    background: rgb(10, 82, 110);
+	color:#fff;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a{
+	background:#42a5db;
+	color:#fff;
+}
