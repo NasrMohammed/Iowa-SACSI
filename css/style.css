@@ -3,14 +3,19 @@ body {
 }
 
 
-/* .header{
-	border-bottom:3px #ccc solid;
-} */
+.header{
+    border-bottom:3px rgb(26, 53, 104) solid;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
 
-.social {
+
+ .social {
     float: right;
-    padding-top: 15px;
-}
+    padding-top: 30px;
+    padding-bottom: 0px;
+} 
 
 .social img {
     width: 35px;
