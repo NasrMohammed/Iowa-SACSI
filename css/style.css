@@ -1,5 +1,6 @@
 body {
     background: ffffff;
+    font-size:14px;
 }
 
 
@@ -38,13 +39,7 @@ body {
     display: block;
 }
 
-footer {
-    background-color: #3096d2;
-    color: #fff;
-    text-align: center;
-    height: 60px;
-    padding-top: 20px;
-}
+
 
 .gallery li {
     width: 32%;
@@ -114,4 +109,86 @@ footer {
 .accordion .accordion-navigation > a, .accordion dd > a{
 	background:#42a5db;
 	color:#fff;
+}
+h1{
+    color:lightblue;
+    
+}
+footer {
+    background-color: #3096d2;
+	
+    text-align: center;
+    height: 60px;
+    padding: 0px;
+}
+#footerNav {
+	
+	font-size:4px;
+	float:left;	
+	color:rgb(8, 5, 5);
+}
+
+#footerNav ul {
+	margin:0;
+	padding:0;
+} 
+
+#footerNav li {
+	display:inline;
+	list-style-type:none;
+	padding-right:5px;
+}
+
+#footerNav a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+#footerNav a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+#footerNav a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+.capitalize {
+	text-transform:uppercase;
+}
+#footerp{
+float: right;
+
+}
+@media (max-width: 550px) {
+
+    footer {
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#footerNav {
+		width:auto;
+		height:auto;
+		margin:auto;
+		float:none;	
+	}
+
+	#footerNav ul {
+		margin:0;
+		padding:0;
+	} 
+	
+	#footerNav li {
+		display: block;
+		list-style-type:none;
+		padding:10px;
+		border-bottom:#FFF 1px solid;
+	}
+	
+	#footerNav a:link {
+		display:block;
+	}
+
 }
