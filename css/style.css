@@ -159,6 +159,85 @@ footer {
 float: right;
 
 }
+
+form#contact fieldset {
+	width:95%;
+	padding:5px;
+	margin:0;
+    /*border:1px solid #999;*/
+    border: 5px solid #3096d2;
+}
+
+form#contact label {
+	width:150px;
+	display:block;
+	float:left;
+}
+
+form#contact input[type="text"], input[type="email"] {
+	padding: 6px;
+	width: 300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #999;
+}
+
+form#contact textarea {
+	width: 300px; 
+	height: 150px;
+	padding: 6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px solid #999;
+}
+
+form#contact .button {
+	padding: 5px 15px 5px 15px;
+	margin-left:150px;
+}
+
+form#contact .button:hover {
+	cursor: pointer;
+}
+
+form#contact .button:active {
+	cursor: pointer;
+}
+
+form#contact .requiredText {
+		color:red;	
+}
+
+#sample label {
+    display:inline-block;
+    /*float:left;*/
+    width:150px;
+
+}
+
+#sample input {
+    width:250px;
+    padding:5px;
+    display:inline-block;
+}
+#sample input[type=radio] {
+    width:auto;
+}
+
+#sample textarea {
+    width:250px;
+    height:150px;
+    padding:5px;
+    font-family: Arial, sans-serif;
+}
+
+.important {
+    color:red;
+}
+
+#sample button {
+    margin-left:150px;
+}
 @media (max-width: 550px) {
 
     footer {
@@ -188,6 +267,52 @@ float: right;
 	
 	#footerNav a:link {
 		display:block;
+    }
+    #sample label {
+        display:block;
+        float:none;
+}
+#sample button {
+        margin-left:0px;
+    }	
+    /* Form */
+	form#contact fieldset {
+		width: 95%;
+		padding:10px;
+		margin:0;
+		border: 1px solid #999;
+	}
+	
+	form#contact label {
+		width:150px;
+		display:block;
+		float:none;
+	}
+	
+	form#contact input[type="text"], input[type="email"] {
+		width: 95%;
+		padding: 6px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px; 
+		border: 1px solid #999;
+	}
+	
+	form#contact textarea {
+		width: 95%;
+		height: 150px;
+		padding: 6px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:13px; 
+		border: 1px solid #999;
+	}
+	
+	form#contact .button {
+		margin-left:0;
+		padding: 5px 15px 5px 15px;
+	}
+	
+	form#contact .requiredText {
+		color:red;	
 	}
 
 }
